@@ -3,7 +3,7 @@
 :root {
   --color-white: #f3f3f3;
   --color-indigo: indigo;
-  --color-darkindigo-alpha: rgba(75, 0, 130, 0.5);
+  --color-alpha: rgba(0, 0, 0, 0.5);
   --color-green-gradient: linear-gradient(rgb(0, 255, 0) -50%, rgb(0, 128, 0) 100%);
   --color-gradient: linear-gradient(180deg, rgb(128, 0, 0), rgb(0, 64, 0), rgb(0, 0, 128), rgb(128, 83, 0));
 }
@@ -44,7 +44,7 @@ body::before {
     linear-gradient(160deg, rgba(255,0,0,0.25), rgba(255,0,0,0) 6.75%),
     linear-gradient(250deg, rgba(0,255,0,0.25), rgba(0,255,0,0) 6.75%),
     linear-gradient(340deg, rgba(0,0,255,0.25), rgba(0,0,255,0) 6.75%),
-    url(assets/earth.png);
+    url(assets/nature.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -89,8 +89,11 @@ button {
 }
 
 .container {
-  width: 100%;
+  background: var(--color-alpha);
+  border-radius: 1rem;
   margin: 3.125rem auto 3.125rem auto;
+  padding: 1rem 0;
+  width: 100%;
 }
 
 @media (min-width: 576px) {
@@ -129,9 +132,11 @@ button {
 /* form */
 
 form {
-  background: var(--color-gradient);
+  width: 90%;
+  margin: 0 auto;
+  background: var(--color-alpha);
   padding: 2.5rem 0.625rem;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 @media (min-width: 480px) {
