@@ -32,12 +32,18 @@ body::before {
   width: 100%;
   z-index: -1;
   background: var(--color-darkblue);
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       115deg,
-      rgba(58, 58, 158, 0.8),
-      rgba(136, 136, 206, 0.7)
+      rgba(0, 0, 0, 0.5),
+      rgba(255, 255, 255, 0.5)
     ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    url(https://i.postimg.cc/nrKr71r2/wall-128.jpg); */
+  background-image:
+    linear-gradient(70deg, rgba(88, 63, 17, 0.25), rgba(255,165,0,0) 6.75%),
+    linear-gradient(160deg, rgba(255,0,0,0.25), rgba(255,0,0,0) 6.75%),
+    linear-gradient(250deg, rgba(0,255,0,0.25), rgba(0,255,0,0) 6.75%),
+    linear-gradient(340deg, rgba(0,0,255,0.25), rgba(0,0,255,0) 6.75%),
+    url(assets/earth.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
