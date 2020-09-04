@@ -43,7 +43,7 @@ body::before {
     linear-gradient(160deg, rgba(255,0,0,0.25), rgba(255,0,0,0) 6.75%),
     linear-gradient(250deg, rgba(0,255,0,0.25), rgba(0,255,0,0) 6.75%),
     linear-gradient(340deg, rgba(0,0,255,0.25), rgba(0,0,255,0) 6.75%),
-    url(assets/earth.png);
+    url(https://i.postimg.cc/tJvfBKs4/wall-142.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -87,7 +87,7 @@ button {
 
 .container {
   width: 100%;
-  margin: 3.125rem auto 0 auto;
+  margin: 3.125rem auto 3.125rem auto;
 }
 
 @media (min-width: 576px) {
