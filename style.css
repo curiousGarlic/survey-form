@@ -44,7 +44,7 @@ body::before {
     linear-gradient(160deg, rgba(255,0,0,0.25), rgba(255,0,0,0) 6.75%),
     linear-gradient(250deg, rgba(0,255,0,0.25), rgba(0,255,0,0) 6.75%),
     linear-gradient(340deg, rgba(0,0,255,0.25), rgba(0,0,255,0) 6.75%),
-    url(assets/nature.jpg);
+    url(assets/nature-beach.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,7 +104,7 @@ button {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .container {
     max-width: 720px;
     margin: 1rem auto 1rem auto;
