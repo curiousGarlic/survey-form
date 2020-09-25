@@ -1,5 +1,5 @@
-# Responsive Web Design - a Survey Form
+# Survey Form
 
-- HTML CSS
+- Responsive Web Design
+    - HTML CSS
 
-Next: Create survey content (!)
